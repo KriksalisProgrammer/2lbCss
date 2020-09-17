@@ -32,21 +32,38 @@ body
 
 div.container
 {
+	
+	 text-align: center;
 	 display: flex;
 	 justify-content:center;
 	 align-items:flex-start;
 }
+
 div.object
 {
+	
 	padding: 50px;
 	background: #00fffc;
 	border: 1px solid black;
-	margin-right: 10px;
-	margin-left:10px;
+	margin-left:50px;
 	margin-top: 10px;
 }
-div.container2
+div.layer1 
 {
-	display: flex;
-	 justify-content:center;
+    float: left; 
+    background: #fd0; 
+    border: 1px solid black; 
+    padding: 20px; 
+    margin-left:50px;
+    width: 40%;
+}
+div.layer2
+{
+    float: right; 
+    background: #fd0; 
+    border: 1px solid black; 
+    padding: 10px; 
+    margin-right: 50px;
+   	width: 40%;
+
 }

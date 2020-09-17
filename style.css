@@ -22,6 +22,7 @@ img.imgflex
 	border: 1px solid black;
 	margin-left: 50px;
 	margin-right: 50px;
+	margin-bottom: 100px;
 }
 
 body
@@ -41,29 +42,14 @@ div.container
 
 div.object
 {
-	
 	padding: 50px;
 	background: #00fffc;
 	border: 1px solid black;
 	margin-left:50px;
 	margin-top: 10px;
 }
-div.layer1 
+p
 {
-    float: left; 
-    background: #fd0; 
-    border: 1px solid black; 
-    padding: 20px; 
-    margin-left:50px;
-    width: 40%;
-}
-div.layer2
-{
-    float: right; 
-    background: #fd0; 
-    border: 1px solid black; 
-    padding: 10px; 
-    margin-right: 50px;
-   	width: 40%;
-
+	font-size:24px;
+	margin-left:50px;
 }

@@ -6,7 +6,7 @@ body
 p.st
 {
 	font-family:  Verdana, Arial, Helvetica, sans-serif;
-	font-size: 16px;
+	font-size: 24px;
 	margin-left: 100px;
 	margin-right: 100px;
 	text-align: center;
@@ -25,6 +25,8 @@ img.imgflex
 {
 	background: #ff34;
 	border: 1px solid black;
+	margin-left: 75px;
+	margin-right: 75px;
 }
 
 .FirstGround
@@ -32,12 +34,6 @@ img.imgflex
 	padding-top: 20px;
 	background: rgb(233,226,74);
 	background: linear-gradient(241deg, rgba(233,226,74,1) 0%, rgba(247,209,117,1) 38%, rgba(255,132,0,1) 100%);
-}
-p
-{
-	font-size:24px;
-	margin-left:50px;
-	font-family: Gill Sans Extrabold, sans-serif; 
 }
 .vertical
 {
@@ -53,6 +49,13 @@ p
 {
 	background: rgb(200,200,185);
 background: linear-gradient(241deg, rgba(200,200,185,1) 0%, rgba(117,200,247,1) 59%, rgba(1,13,13,1) 100%);
+}
+.vertical p
+{
+	font-size:32px;
+	margin: 0;
+	padding-bottom: 20px;
+	font-family: Gill Sans Extrabold, sans-serif; 
 }
 .container
 {
@@ -106,3 +109,23 @@ background: linear-gradient(241deg, rgba(200,200,185,1) 0%, rgba(117,200,247,1) 
 	background: white;
 	font-size: 18px;
 }
+.hilist
+{
+	font-size: 60px;
+	margin: 0;
+	padding-bottom: 30px;
+}
+.hilist li
+{
+	 list-style: none;
+	 background: url(icon.svg) no-repeat 0 4px;
+	 padding-left: 80px;
+}
+
+.Row1 p
+{
+	text-align: center;
+	font-size: 32px;
+	color: #6A5ACD;
+}
+
